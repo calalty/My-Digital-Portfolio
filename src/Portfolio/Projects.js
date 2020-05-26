@@ -18,8 +18,8 @@ class Projects extends Component { // components are CAPITLISED
                     <li></li>
             </ul>
 
-            <div className='project-title'>
-            <h1>Projects</h1>
+            <div>
+            <h1 className='title'>Projects</h1>
             </div>
             </div>
             

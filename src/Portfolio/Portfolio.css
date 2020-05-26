@@ -197,7 +197,7 @@ background-color: #cfdbd5;
   border-radius: 5%;
   color: #242423be;
   font-family: 'Advent Pro', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 0.25em;
   justify-content: center;
   align-items: center;
@@ -213,8 +213,8 @@ background-color: #cfdbd5;
  -webkit-transition: all 1.5s ease;
  -moz-transition: all 1.5s ease;
  -o-transition: all 1.5s ease;
- height: 60px;
- width:300px;
+ height: 55px;
+ width:225px;
  -webkit-transition: all 0.5s ease;
  -moz-transition: all 0.5s ease;
  -o-transition: all 0.5s ease;
@@ -227,7 +227,7 @@ opacity: 1;
 -webkit-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
 -moz-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
 box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
-width: 350px;
+width: 250px;
 }
 
 /* Floating Circle Background */
@@ -339,29 +339,11 @@ animation-duration: 35s;
   }
 
   100%{
-      transform: translateY(500px) rotate(720deg);
+      transform: translateY(450px) rotate(720deg);
       opacity: 0;
       border-radius: 50%;
   }
 
-}
-
-/* Projects - Light Flickering Title */
-
-.project-title {
-  color: #cfdbd5;
-  content: ""; 
-  display: block;
-  margin: 0 auto;
-  border-right: 1px solid #f5cb5c;
-  border-left: 1px solid #f5cb5c;
-  width: 25%;
-  font-weight: bolder;
-  font-family: 'Megrim', cursive;
-  font-size: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  word-spacing: 0.25em;
 }
 
 /* Projects Slideshow */
@@ -461,19 +443,20 @@ animation-duration: 35s;
 }
 .CSSgal .slider h2 {
   font-family: 'Megrim', cursive;
-  margin-top: 2em;
+  margin-top: 2.5em;
   margin-bottom: 5.5em;
 	font-weight: 200;
 	letter-spacing: 0.15em;
 	word-spacing: 0.2em;
-	font-size: 3em;
+	font-size: 2.25em;
 }
 .CSSgal a {
   font-family: 'Advent Pro', sans-serif;
 	border-radius: 50%;
 	margin: 0 15px;
 	color: rgba(245, 243, 243, 0.8);
-	text-decoration: none;
+  text-decoration: none;
+  margin-top: 2.5em;
 }
 
 /* View Me Projects Button */
@@ -501,7 +484,7 @@ background-color: #cfdbd5;
  
 
  height: 35px;
-    width:125px;
+    width:115px;
 
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -517,4 +500,63 @@ background-color: #cfdbd5;
  box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
  width: 150px;
 
+}
+
+/* titles of all navbar content */
+
+.title {
+  color: #cfdbd5;
+  content: ""; 
+  display: block;
+  margin: 0 auto;
+  border-right: 1px solid #f5cb5c;
+  border-left: 1px solid #f5cb5c;
+  width: 25%;
+  font-weight: bolder;
+  font-family: 'Megrim', cursive;
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  word-spacing: 0.25em;
+}
+
+.job-description {
+  color: #242423;
+  line-height: 1.5em;
+  font-size: 1.15em;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: left;
+  justify-content:center;
+  padding-top: 1em;
+  display: flex;
+  font-weight: bolder;
+}
+
+.place-work {
+  color: #242423;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: left;
+  justify-content:center;
+  padding-top: 1em;
+  display: flex;
+}
+
+.employment li{
+  color: #242423;
+  font-size: 1em;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
+  justify-content:center;
+  padding-top: 1em;
+  display: flex;
+  list-style-type: none;
+  margin-left: -2.5em;
+}
+
+.employment a {
+  font-weight: bolder;
+  padding-right: 0.5em;
+  letter-spacing: 0.1em;
 }
