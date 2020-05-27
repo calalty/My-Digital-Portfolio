@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Projects from './Projects'
 
 const About = () => {
     return (
+        <Router>
         <div>
         <div className='main-content'>
             <ul className="circles">
@@ -32,8 +34,17 @@ const About = () => {
                 I had realised that an apprenticeship with a Tech bias where i could show some creative flare would be my preffered route. I have a genuine passion for technology, and i seem to have the ability
                 to pick up technical subjects quickly and run with them, this is why becoming a Software Developer has become my dream.</p></div>
         </div>
-        <button className='project-button' onClick>My Projects </button>
+        <Link to='projects'><button className='project-button' onClick>
+        <a>My Projects</a>
+        </button>
+        </Link>
+        <Switch>
+          <Route path='/projects'>
+            <Projects />
+            </Route>
+        </Switch>
         </div>
+        </Router>
     )
 }
 
