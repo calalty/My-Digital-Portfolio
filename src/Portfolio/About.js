@@ -7,7 +7,7 @@ const About = () => {
         <Router>
         <div>
         <div className='main-content'>
-            <ul className="circles">
+            {/* <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -18,7 +18,7 @@ const About = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
+            </ul> */}
 
             <div className='names'>
             <h1 className='first-name'>Callum</h1>

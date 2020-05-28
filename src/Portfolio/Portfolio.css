@@ -110,7 +110,10 @@ a {
 /* main-content = my name, about me and job title */
 
 .main-content {
-  background: linear-gradient(-14deg, #242423 50%, #333533 50%);
+  background: linear-gradient(45deg,#242423, #333533, #242423);
+  background-size: 600% 100%;
+  animation: gradient 14s linear infinite;
+  animation-direction: alternate;
   color: #cfdbd5;
   text-align: center;
   justify-content: center;
@@ -118,6 +121,14 @@ a {
   padding-top: 2em;
   padding-bottom: 3em;
 }
+
+@keyframes gradient {
+  0% {background-position: 0%}
+  0% {background-position: 50%}
+  50% {background-position: 100%}
+}
+
+/* (-14deg, #242423 50%, #333533 50%); */
 
 /* first and second name */
 
@@ -230,10 +241,9 @@ opacity: 1;
 -webkit-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
 -moz-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
 box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
-width: 250px;
 }
 
-/* Floating Circle Background */
+/* Floating Circle Background
 
 .circles{
 left: 0;
@@ -345,9 +355,7 @@ animation-duration: 35s;
       transform: translateY(450px) rotate(720deg);
       opacity: 0;
       border-radius: 50%;
-  }
-
-}
+  } */
 
 /* Projects Slideshow */
 
@@ -501,26 +509,60 @@ background-color: #cfdbd5;
  -webkit-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
  -moz-box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
  box-shadow: 0px 0px 20px#393e41(255,255,255,0.8);
- width: 150px;
 
 }
 
 /* titles of all navbar content */
 
-.title {
-  color: #cfdbd5;
+.project-title {
+  color: #f5cb5c;
   content: ""; 
   display: block;
   margin: 0 auto;
-  border-right: 1px solid #f5cb5c;
-  border-left: 1px solid #f5cb5c;
+  border-bottom: 1px solid #cfdbd5;
+  border-top: 1px solid #cfdbd5; 
+  width: 20%;
+  font-weight: bolder;
+  font-family: 'Megrim', cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  word-spacing: 0.25em;
+  letter-spacing: 0.05em;
+}
+
+.employment-title {
+  color: #f5cb5c;
+  content: ""; 
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid #cfdbd5;
+  border-top: 1px solid #cfdbd5; 
   width: 25%;
   font-weight: bolder;
   font-family: 'Megrim', cursive;
-  font-size: 2.5em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   word-spacing: 0.25em;
+  letter-spacing: 0.05em;
+}
+
+.contact-title {
+  color: #f5cb5c;
+  content: ""; 
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid #cfdbd5;
+  border-top: 1px solid #cfdbd5; 
+  width: 18%;
+  font-weight: bolder;
+  font-family: 'Megrim', cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  word-spacing: 0.25em;
+  letter-spacing: 0.05em;
 }
 
 /* Employemnt Section */

@@ -5,7 +5,7 @@ const Employment = () => {
         <div>
             
             <div className='main-content'>
-            <ul className="circles">
+            {/* <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -16,9 +16,9 @@ const Employment = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
+            </ul> */}
 
-            <h1 className='title'>Employment</h1>
+            <h1 className='employment-title'>Employment</h1>
             </div>
             <div>
             <p className='job-description'>Level 4 Software Developer Apprentice at TalkTalk.</p>

@@ -5,7 +5,7 @@ class Projects extends Component { // components are CAPITLISED
     return (
         <div>
              <div className='main-content'>
-             <ul className="circles">
+             {/* <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -16,10 +16,10 @@ class Projects extends Component { // components are CAPITLISED
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
+            </ul> */}
 
             <div>
-            <h1 className='title'>Projects</h1>
+            <h1 className='project-title'>Projects</h1>
             </div>
             </div>
             
